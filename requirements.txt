@@ -20,6 +20,6 @@ pytz==2014.9
 raven==5.1.1
 requests==2.4.3
 six==1.9.0
-sqlparse==0.1.13
+sqlparse==0.4.1
 static3==0.5.1
 wheel==0.24.0
