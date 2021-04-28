@@ -1,0 +1,19 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: django-crispy-forms
+    versions:
+    - 1.10.0
+    - 1.11.0
+    - 1.11.1
+  - dependency-name: python-postmark
+    versions:
+    - 0.5.5
+  - dependency-name: blockcypher
+    versions:
+    - 1.0.90
